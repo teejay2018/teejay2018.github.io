@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello Homelab
-date: 2025-07-11 09:44:00 -500
+date: 2025-07-11 09:44:00 +0200
 categories: [homelab,hardware]
 tags: [servers,dell,hp,lenovo]
 ---
@@ -33,4 +33,4 @@ sudo bundle
 
 ## Photos
 
-![The world of cantaloop](cantaloop-logo.png)
+![The world of cantaloop](/assets/images/cantaloop-logo.png)
