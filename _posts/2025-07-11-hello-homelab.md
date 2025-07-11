@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Hello Homelab
 date: 2025-07-11 09:44:00 -500
 categories: [homelab,hardware]
