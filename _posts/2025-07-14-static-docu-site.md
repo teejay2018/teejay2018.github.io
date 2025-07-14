@@ -33,7 +33,7 @@ tags: [github,jekyll]
 
 ---
 Learning the setup by following below video by Techno Tim.
-He shared documentation here: [Meet Jekyll - The Static Site Generator](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFdyWHRYTXdNN1dRZnBmd1lUdWIyTEYzdmFId3xBQ3Jtc0tsbnFxZ3g5NVd5YjFGdmk0amRiR2NOczdLWmd3Y0t5bExBdE9LZlBOMnA0V19vQjNiRGJBckRaSEMwdHoxVWNYakhBakttYW5ZYUkyc2RHUjhIMzlBUlN5dFliUzB0dkdGLUthYmctREV4WV94aEFaZw&q=https%3A%2F%2Ftechnotim.live%2Fposts%2Fjekyll-docs-site%2F&v=F8iOU1ci19Q)
+He shared documentation here: [Meet Jekyll - The Static Site Generator](https://technotim.live/posts/jekyll-docs-site/)
 
 {% include embed/youtube.html id='F8iOU1ci19Q' %}
 
