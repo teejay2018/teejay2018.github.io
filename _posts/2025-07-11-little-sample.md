@@ -27,12 +27,14 @@ tags: [jekyll,markdown]
 
 ---
 ![Cantaloop](/assets/images/cantaloop-logo.png){: .left w="300" h="150" }
-Here is a long text that will be repeated serveral lines in order to see the picture to fit arounf on the left side. If this works it is a little miracle but let us all give it a try because seeing is beliveing. Also A good test on a real browser window will be needed, but let me see in preview first.
+Here is a long text that will be repeated serveral lines in order to see the picture to fit around on the left side. If this works it is a little miracle but let us all give it a try because seeing is beliveing. Also A good test on a real browser window will be needed, but let me see in preview first.
+
 ---
 
-![Cantaloop](/assets/images/cantaloop-logo.png){: w="200" h="150" }
+![Cantaloop](/assets/images/cantaloop-logo.png){: .right w="200" h="150" }
 
-Here is a long text that will be repeated serveral lines in order to see the picture to fit arounf on the left side. If this works it is a little miracle but let us all give it a try because seeing is beliveing. Also A good test on a real browser window will be needed, but let me see in preview first.
+Here is a long text that will be repeated serveral lines in order to see the picture to fit around on the right side. If this works it is a little miracle but let us all give it a try because seeing is beliveing. Also A good test on a real browser window will be needed, but let me see in preview first.
+
 ---
 ```bash
 pwd
@@ -41,4 +43,5 @@ who
 ```
 ---
 ~~hey~~
+
 ---
