@@ -34,3 +34,9 @@ sudo bundle
 ## Photos
 
 ![The world of cantaloop](/assets/images/cantaloop-logo.png)
+
+---
+
+![DNS setup](/assets/images/dns-setup.png)
+
+---
