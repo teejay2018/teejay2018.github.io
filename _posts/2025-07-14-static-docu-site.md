@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Homelab
+title: Blog for cantaloop.dk
 date: 2025-07-14 08:00:00 +0200
 categories: [blog]
 tags: [github,jekyll]
@@ -34,7 +34,7 @@ tags: [github,jekyll]
 ---
 Learning the setup by following below video
 
-{% include embed/youtube.html id='F8iOU1ci19Q&t=1288s' %}
+{% include embed/youtube.html id='F8iOU1ci19Q' %}
 
 Stuff to know with Jekyll
 

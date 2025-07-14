@@ -14,4 +14,4 @@ tags: [nvidia,dell]
 * DgxOs
 
 ---
-{% include embed/youtube.html id='F8iOU1ci19Q&t=1288s' %}
+{% include embed/youtube.html id='F8iOU1ci19Q' %}
