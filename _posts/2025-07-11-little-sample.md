@@ -13,3 +13,5 @@ tags: [nvidia,dell]
 * Base Command Manager
 * DgxOs
 
+---
+{% include embed/youtube.html id='F8iOU1ci19Q&t=1288s' %}

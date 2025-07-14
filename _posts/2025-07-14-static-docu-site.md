@@ -30,6 +30,12 @@ tags: [github,jekyll]
  - Custom domain (blog.cantaloop.dk) pointing to GitHub Pages (teejay2018.github.io)
  - Include SSL out of the box
 
+
+---
+Learning the setup by following below video
+
+{% include embed/youtube.html id='F8iOU1ci19Q&t=1288s' %}
+
 Stuff to know with Jekyll
 
 Jekyll to know:
