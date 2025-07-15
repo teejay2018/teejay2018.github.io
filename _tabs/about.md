@@ -11,11 +11,13 @@ Personal blog with tech related documentation
 
 ---
 First released 1964. Herbie Hancock: Cantaloupe Island
+
 {% include embed/youtube.html id='2VN8zH366M8' %}
 
 ---
 1993 - Cantaloop by Us3 - Blue Note record
- {% include embed/youtube.html id='JwBjhBL9G6U' %}
+
+{% include embed/youtube.html id='JwBjhBL9G6U' %}
 
 ---
 This is under construction
