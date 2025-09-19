@@ -36,7 +36,7 @@ No Wifi network is configured during install, instead you do this as first thing
 - select by pressing space
 - enter password 
 
-When Wifi is connected click the update to have latest Omarchy via internet
+When Wifi is connected you click the update to have latest Omarchy via internet
 
 ### Shortcuts to begin with
 
