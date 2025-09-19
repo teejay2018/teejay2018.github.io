@@ -38,3 +38,31 @@ No Wifi network is configured during install, instead you do this as first thing
 
 When Wifi is connected click the update to have latest Omarchy via internet
 
+### Shortcuts to begin with
+
+| What                             | Shortcut                          |
+|----------------------------------|-----------------------------------|
+| Terminal                         | Super + Enter                    |
+| Browser                          | Super + B                        |
+| Tile jump left or right          | Super + Arrow key left or right  |
+| Tile move left or right          | Super + Shift + left or right    |
+| Tile split horzontal or vertical | Super + J                        |
+| btop                             | Super + T                        |
+| Close Window                     | Super + W                        |
+| ChatGPT                          | Super + A                        |
+| X                                | Super + X                        |
+| Launcher                         | Super + Space                    |
+| Omarchy Menu                     | Super + Alt + Space              |
+| Jump other Space                 |                                  |
+| Jump other Screen                | Super + Shift + Tab              |
+
+  
+----------------------------------------------
+  
+
+Macbook keyboard - need to know  
+
+ALT = Option  
+Super = Command  
+Ctrl = Control  
+
