@@ -62,7 +62,7 @@ When Wifi is connected you click the update to have latest Omarchy via internet
 
 Macbook keyboard - need to know  
 
-ALT = Option  
-Super = Command  
+Super = Command 
+ALT = Option   
 Ctrl = Control  
 
