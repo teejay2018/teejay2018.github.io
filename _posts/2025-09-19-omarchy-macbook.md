@@ -106,4 +106,14 @@ Build in microphone also work.
 --------------
 Question - how is Apple keys for brigtness and sound working?
 
+After investigating a bit it turns out they actually work, press without holding other key like Fn and there may be slight delay.<br>
+If you hold volume down for a bit you will see the info on screen with current % volume.<br>
+If you want to dive into adjusting key mapping, for example use proper F7 key, this can be done via Hyprland config file.<br>
+Use the linux tool wev to visually figure out what a key produce, for example I could see F7 produce XF86Fn + F7<br>
+This will eventually turn into something like this in the Hyprland mapping config:
+```bash
+binds = s, XF86Fn&F7, exec, <command>
+```
+
+
 
