@@ -115,5 +115,42 @@ This will eventually turn into something like this in the Hyprland mapping confi
 binds = s, XF86Fn&F7, exec, <command>
 ```
 
+### Setup for external monitors with Hyprland
+
+Next up - looking to get external screens to work at office setup.
+Here we use DisplayLink based docking station, so initially nothing was detected.
+
+You can check connected screens with this command:
+```bash
+hyprctl monitors all
+```
+
+In order to use docking station we will need to install DisplayLink package and this also requires kernel module evdi to be installed.
+Both packages is installed via AUR:
+```bash
+yay -S evdi-dkms
+yay -S displaylink
+```
+
+Enable and start service
+
+```bash
+sudo systemctl enable displaylink.service
+sudo systemctl start displaylink.service
+```
+Verify module is loaded and check status:
+```bash
+lsmod | grep evdi
+sudo systemctl status displaylink.service
+```
+Now after reboot and connecting usb from docking station I was able to see screens with `hyperctl monitors all` command
+
+The two screens names was DVI-I-1 and DVI-I-2
+
+For having correct resolution(scale) I added these lines to the `.config/hypr/monitors.conf` file
+monitor = DVI-I-1, 1920x1080@60, auto, 1
+monitor = DVI-I-2, 1920x1080@60, auto, 1
+
+This seems to work - only now I also need to reorganize the order of these two screens
 
 
