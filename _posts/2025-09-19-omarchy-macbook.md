@@ -148,9 +148,12 @@ Now after reboot and connecting usb from docking station I was able to see scree
 The two screens names was DVI-I-1 and DVI-I-2
 
 For having correct resolution(scale) I added these lines to the `.config/hypr/monitors.conf` file
-monitor = DVI-I-1, 1920x1080@60, auto, 1
-monitor = DVI-I-2, 1920x1080@60, auto, 1
+monitor = DVI-I-1, 1920x1080@60, auto, 1<br>
+monitor = DVI-I-2, 1920x1080@60, auto, 1<br>
 
 This seems to work - only now I also need to reorganize the order of these two screens
 
+adjusting DP-1 to have auto-left and DP-2 to have auto-right did not just work.
+monitor = DP-1, 2560x1440@60, auto-left, 1.333333<br>
+monitor = DP-2, 2560x1440@60, auto-right, 1<br>
 
