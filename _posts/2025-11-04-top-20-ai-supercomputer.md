@@ -2,7 +2,6 @@
 layout: post
 title: AI Factories
 date: 2025-11-04 08:00:00 +0200
-no_panel: true
 categories: [top20,data,ai]
 tags: [nvidia,datacenter]
 ---
