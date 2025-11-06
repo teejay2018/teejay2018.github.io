@@ -37,7 +37,7 @@ Here is a long text that will be repeated serveral lines in order to see the pic
 
 ---
 
-
+This is my [link to the top 20 post]({% post_url 2025-11-04-top-20-ai-supercomputer %}) that I mentioned earlier.
 
 ---
 ```bash
