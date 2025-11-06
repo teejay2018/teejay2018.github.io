@@ -36,6 +36,11 @@ Here is a long text that will be repeated serveral lines in order to see the pic
 Here is a long text that will be repeated serveral lines in order to see the picture to fit around on the right side. If this works it is a little miracle but let us all give it a try because seeing is beliveing. Also A good test on a real browser window will be needed, but let me see in preview first.
 
 ---
+
+How can you link to other post, here is sample
+This is my [link to the nice post]({% post_url 2025-11-04-ai-supercomputer %}) that I mentioned earlier.
+
+---
 ```bash
 pwd
 ls -l 
