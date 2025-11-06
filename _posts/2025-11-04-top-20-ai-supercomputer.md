@@ -15,8 +15,8 @@ Figures are based on public announcements, credible leaks, and infrastructure an
 
 | 🏭 Top 20 list | 📆 Status | 🌐 Link | 📝 Notes
 |:--:|:------------------|:-------------|:--------------------|
-| **1st** | **Published November/2025** | [link to the top 20 post]({% post_url 2025-11-06-top-20-ai-supercomputer-2025H2 %}) | **Premiere** |
-| **2nd** | To come June/2026 | | with notes on progress |
+| **1st** | **Published November/2025** | **[2025 11]({% post_url 2025-11-06-top-20-ai-supercomputer-2025H2 %})** | |
+| **2nd** | To come June/2026 | 2026 05 | with notes on progress |
 
 ---
 
