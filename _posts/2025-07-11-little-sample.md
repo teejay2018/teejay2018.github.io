@@ -37,8 +37,7 @@ Here is a long text that will be repeated serveral lines in order to see the pic
 
 ---
 
-How can you link to other post, here is sample
-This is my [link to the nice post]({% post_url 2025-11-04-ai-supercomputer %}) that I mentioned earlier.
+
 
 ---
 ```bash
