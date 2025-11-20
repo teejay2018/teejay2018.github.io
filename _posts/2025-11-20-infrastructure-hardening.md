@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project cantaloop - Infrastructure - Hetzner VM
+title: Project cantaloop - Infrastructure - hardening VM
 hidden: true
 date: 2025-11-20 08:00:00 +0200
 categories: [linux,hetzner]
