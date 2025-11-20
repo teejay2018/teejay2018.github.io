@@ -23,7 +23,12 @@ Initialize<br>
 ```bash
 firewall
 ```
-
+Configure the UFW Firewall<br>
+Allow Necessary Ports (Critical Step)<br>
+Enable the Firewall<br>
+Check Status<br>
+Disable Direct Root SSH Login<br>
+Install Fail2Ban (Brute-Force Protection)<br>
 
 ### 💡Still to do
 
