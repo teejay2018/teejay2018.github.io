@@ -157,3 +157,59 @@ adjusting DP-1 to have auto-left and DP-2 to have auto-right did not just work.
 monitor = DP-1, 2560x1440@60, auto-left, 1.333333<br>
 monitor = DP-2, 2560x1440@60, auto-right, 1<br>
 
+--------------------------------
+
+### 🔍 Updates and progress
+
+I have been upgrading Omarchy with 3.0.2, 3.0.4 and more, at some point I made a few experiments that I wanted to get rid of, so I also reinstalled Omarchy completely via a new ISO using latest version. This worked nicely but it also seems that I need to reinstall the sound drivers as decribed above - will do this when I have time.
+
+I realized that also camera was not working. Some quick talk with Gemini 3.0 gave me below steps to have drivers installed and after that camera worked when using Teams in browser.
+
+**Step 1 - Preparation**
+
+Ensure system is updated and ready:
+
+```bash
+sudo pacman -Syu base-devel linux-headers git
+```
+*This step actually ended with some error code, but I decided to take chance and proceed.*
+
+**Step 2: Install the Driver from AUR**
+
+We need two packages and omarchy uses yay
+
+```bash
+yay -S facetimehd-firmware facetimehd-dkms
+```
+*Answering A or Y to questions*
+
+**Step 3: Load the Module**
+
+Load module to kernel
+
+```bash
+sudo modprobe facetimehd
+```
+**Step 4: Verify**
+
+```bash
+ls /dev/video*
+```
+If you see ``/dev/video0``, your camera is installed!
+
+**Step 5: Load on Boot**
+
+```bash
+sudo nvim /etc/modules-load.d/facetimehd.conf
+```
+Add the following line to the file:<br>
+```bash
+facetimehd
+```
+Save and exit<br>
+-----
+At this point camera was working 🚀🚀🚀🚀🚀
+
+
+
+
