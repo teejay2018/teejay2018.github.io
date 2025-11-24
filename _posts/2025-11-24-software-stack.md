@@ -14,7 +14,7 @@ tags: [linux,datacenter]
 ### Steps
 
 > ✅ nginx.<br>
-> ✅ mysal<br>
+> ✅ mysql<br>
 > ✅ python<br>
 > ✅ certbot<br>
 

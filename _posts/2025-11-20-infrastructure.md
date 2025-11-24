@@ -17,8 +17,9 @@ Steps include overview and details that is relevant from building core and secur
 |:--:|:------------------|:-------------|:--------------------|
 | **Hetzner VM** | **Setup November/2025** | **[Initial]({% post_url 2025-11-20-infrastructure-hetzner %})** | |
 | **Hardening VM** | **Setup November/2025** | **[Hardening]({% post_url 2025-11-20-infrastructure-hardening %})** | |
-| **Install and set up software stack VM** | **Setup November/2025** | **[Software]({% post_url 2025-11-24-software-stack %})** | |
-| **Install and set up logging dashboard VM** | To come November/2025 | 2025 11 | with notes on progress |
+| **Install and set up software stack** | **Setup November/2025** | **[Software]({% post_url 2025-11-24-software-stack %})** | |
+| **Install and set up logging dashboard** | To come November/2025 | **[Dashboard]({% post_url 2025-11-24-log-dashboard %})** | with notes  |
+| **Install next** | To come November/2025 | WIP | with notes  |
 
 ---
 
