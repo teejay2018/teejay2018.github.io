@@ -45,4 +45,7 @@ sudo ufw status
 
 > 🔭 next Filebeats<br>
 <br>
+
+> Prototype finished - Elastic, Kibana, Filebeat installed and configured and first sample Dashboard is running.<br>
+
 ---
