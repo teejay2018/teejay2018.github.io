@@ -19,7 +19,7 @@ Steps include overview and details that is relevant from building core and secur
 | **Hardening VM** | **Setup November/2025** | **[Hardening]({% post_url 2025-11-20-infrastructure-hardening %})** | |
 | **Install and set up software stack** | **Setup November/2025** | **[Software]({% post_url 2025-11-24-software-stack %})** | |
 | **Install and set up logging dashboard** | **Setup November/2025** | **[Dashboard]({% post_url 2025-11-24-log-dashboard %})** | |
-| **Install and set up local LLM** | To come December/2025 | **[Dashboard]({% post_url 2025-12-08-llm-setup %})** | with notes  |
+| **Install and set up local LLM** | **Setup December/2025** | **[LLM]({% post_url 2025-12-08-llm-setup %})** | with notes  |
 | **Install next** | To come January/2026 | WIP | with notes  |
 
 ---
