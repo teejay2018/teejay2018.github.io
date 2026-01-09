@@ -16,8 +16,8 @@ Steps include overview and details that is relevant from building core and secur
 | 🏭 Overview | 📆 Status | 🌐 Link | 📝 Notes
 |:--:|:------------------|:-------------|:--------------------|
 | **Hetzner VM** | **Setup November/2025** | **[Initial]({% post_url 2025-11-20-infrastructure-hetzner %})** | cantaloop.dk |
-| **Hardening VM** | **Setup November/2025** | **[Hardening]({% post_url 2025-11-20-infrastructure-hardening %})** | |
-| **Install and set up software stack** | **Setup November/2025** | **[Software]({% post_url 2025-11-24-software-stack %})** | |
+| **Hardening VM** | **Setup November/2025** | **[Hardening]({% post_url 2025-11-20-infrastructure-hardening %})** | ufw, nginx proxy, ssh |
+| **Install and set up software stack** | **Setup November/2025** | **[Software]({% post_url 2025-11-24-software-stack %})** | python, mariadb, nginx |
 | **Install and set up logging dashboard** | **Setup November/2025** | **[Dashboard]({% post_url 2025-11-24-log-dashboard %})** | kibana.cantaloop.dk |
 | **Install and set up local LLM** | **Setup December/2025** | **[LLM]({% post_url 2025-12-08-llm-setup %})** | llm.cantaloop.dk |
 | **Install and set up local Nextcloud** | **Setup December/2025** | **[Nextcloud]({% post_url 2026-01-04-nextcloud-setup %})** | nextcloud.cantaloop.dk |
