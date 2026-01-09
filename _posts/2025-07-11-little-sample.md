@@ -13,7 +13,6 @@ tags: [jekyll,markdown]
 * Base Command Manager
 * DgxOs
 
-hhh
 
 | name      | Description                        |
 | --------- | ---------------------------------- |
@@ -67,3 +66,6 @@ who
 ```mermaid
 flowchart LR
     A --> B
+```
+
+Nu er den der
