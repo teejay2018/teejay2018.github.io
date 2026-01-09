@@ -6,7 +6,7 @@ categories: [vm,orchestrator,hetzner,linux]
 tags: [linux,vm,infrastructure]
 ---
 
-# 🌍 Setting up SaaS for application with orchestrator and Agentic AI projects
+# 🏅 Setting up SaaS for application with orchestrator and Agentic AI projects
 
 *Here I will describe and document my journey with setting up software to be used for experiments in relation to project orchestrator.
 Steps include overview and details that is relevant from building core and secure foundation to setting up needed software stack and develop and deploy multiple applications.*
