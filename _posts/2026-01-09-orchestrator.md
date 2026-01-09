@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project orchestrator - for AI, Agentic
-date: 2025-11-20 08:00:00 +0200
+date: 2026-01-09 08:00:00 +0200
 categories: [vm,orchestrator,hetzner,linux]
 tags: [linux,vm,infrastructure]
 ---
