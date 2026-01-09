@@ -4,6 +4,7 @@ title: MD samples
 date: 2025-07-11
 categories: [infrastructure,ai]
 tags: [jekyll,markdown]
+mermaid: true
 ---
 
 # Interesting syntax
