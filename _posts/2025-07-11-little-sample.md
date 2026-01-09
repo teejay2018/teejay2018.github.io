@@ -60,3 +60,8 @@ who
 ~~hey~~
 
 ---
+
+```mermaid
+flowchart LR
+    A --> B
+```
