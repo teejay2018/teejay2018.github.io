@@ -13,7 +13,7 @@ tags: [jekyll,markdown]
 * Base Command Manager
 * DgxOs
 
----
+hhh
 
 | name      | Description                        |
 | --------- | ---------------------------------- |
@@ -22,20 +22,21 @@ tags: [jekyll,markdown]
 
 
 
----
+hhh
 {% include embed/youtube.html id='F8iOU1ci19Q' %}
 
----
+hhh
+
 ![Cantaloop](/assets/images/cantaloop-logo.png){: .left w="300" h="150" }
 Here is a long text that will be repeated serveral lines in order to see the picture to fit around on the left side. If this works it is a little miracle but let us all give it a try because seeing is beliveing. Also A good test on a real browser window will be needed, but let me see in preview first.
 
----
+hhh
 
 ![Cantaloop](/assets/images/cantaloop-logo.png){: .right w="200" h="150" }
 
 Here is a long text that will be repeated serveral lines in order to see the picture to fit around on the right side. If this works it is a little miracle but let us all give it a try because seeing is beliveing. Also A good test on a real browser window will be needed, but let me see in preview first.
 
----
+hhh
 
 This is my [link to the top 20 post]({% post_url 2025-11-04-top-20-ai-supercomputer %}) that I mentioned earlier.
 
@@ -50,23 +51,19 @@ This is my [link to the top 20 post]({% post_url 2025-11-04-top-20-ai-supercompu
 
 🏅 Rank
 
----
+
 ```bash
 pwd
 ls -l 
 who
 ```
----
+
 ~~hey~~
 
----
-a
-```mermaid
-flowchart LR
-    A --> B
-```
 
-Jeg skal måske denne
+
+
+
 ```mermaid
 flowchart LR
     A --> B
