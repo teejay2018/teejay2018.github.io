@@ -68,5 +68,5 @@ who
 flowchart LR
     A --> B
 ```
-{% include mermaid.html %}
+
 Nu er den der mere mere
