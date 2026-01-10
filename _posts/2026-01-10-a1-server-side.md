@@ -198,6 +198,18 @@ This keeps failure modes visible and avoids hidden complexity.
 
 Automation (systemd, containers, orchestration) can be added later if needed.
 
+Cheat sheet for starting new service manually
+```bash
+ssh tom@<cantaloop-IP>
+cd ~/agent-demo
+source .venv/bin/activate
+export OPENAI_API_KEY="sk-..."
+mv processed/test1.txt inbox
+uvicorn agent_api:app --host 127.0.0.1 --port 8000
+Ctrl-C to stop service
+```
+
+
 ---
 
 ## Summary
