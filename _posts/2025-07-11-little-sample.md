@@ -62,7 +62,7 @@ who
 
 
 
-{% include mermaid.html %}
+
 
 ```mermaid
 flowchart LR
