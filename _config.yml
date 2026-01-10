@@ -18,6 +18,13 @@ title: Cantaloop # the main title
 
 tagline: Decoding the Future. AI, Cloud, and the Tech Frontier # it will display as the subtitle
 
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+
+
 mermaid: true
 
 description: >- # used by seo meta and the atom feed
