@@ -22,6 +22,48 @@ Steps include overview and details that is relevant from building core and secur
 
 ---
 
+Initial Architecture overview. 
+
+```mermaid
+flowchart TB
+    UI[Web UI / CLI / Cron]
+
+    subgraph Orchestrator
+        T1[Tenant A]
+        T2[Tenant B]
+    end
+
+    subgraph TenantA["Tenant A"]
+        A1[Agent A1]
+        A2[Agent A2]
+    end
+
+    subgraph TenantB["Tenant B"]
+        A3[Agent A3]
+    end
+
+    subgraph Infra["Shared Infrastructure"]
+        API[Agent API]
+        FS[File System]
+        LOG[Run History]
+    end
+
+    UI --> Orchestrator
+    Orchestrator --> T1
+    Orchestrator --> T2
+
+    T1 --> A1
+    T1 --> A2
+    T2 --> A3
+
+    A1 --> API
+    A2 --> API
+    A3 --> API
+
+    API --> FS
+    API --> LOG
+````
+
 
 ---
 

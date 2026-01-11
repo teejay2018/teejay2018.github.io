@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Server-Side Python Setup for Agent A1"
+hidden: true
 date: 2026-01-10
 categories: [infrastructure, python, agents]
 tags: [python, venv, fastapi, uvicorn, linux]

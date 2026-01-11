@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Agent A1 – Architecture and Runtime Design"
+hidden: true
 date: 2026-01-09
 categories: [ai, architecture, agents]
 tags: [agents, openai, orchestration, python, fastapi]
@@ -207,6 +208,46 @@ This prototype demonstrates a few important ideas:
 - Provider comparisons (OpenAI vs Gemini) are only meaningful when the surrounding system is identical
 
 ---
+
+## State Diagram
+
+Agent lifecycle (idle/running/error)
+
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+
+    Idle --> Running : run triggered
+    Running --> Idle : success
+    Running --> Error : execution failure
+    Error --> Idle : reset / next run
+```
+
+---
+
+## Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant U as User (Browser)
+    participant N as Nginx
+    participant API as Agent API
+    participant A as Agent A1
+    participant LLM as OpenAI API
+    participant FS as File System
+    participant LOG as Run Log
+
+    U->>N: Click "Run Agent"
+    N->>API: POST /api/a1/run
+    API->>A: start_run()
+    A->>FS: observe inbox / processed
+    A->>LLM: decision prompt
+    LLM-->>A: decision (JSON)
+    A->>FS: move file
+    A->>LOG: write run object
+    API-->>N: 200 OK + result
+    N-->>U: JSON response
+```
 
 ## Next Steps
 
