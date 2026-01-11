@@ -77,7 +77,7 @@ timeline
 
 #### 🏅 Rank
 
-🏅 Rank
+🏅 Rank and
 
 
 ```bash
