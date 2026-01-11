@@ -220,10 +220,7 @@ This prototype demonstrates a few important ideas:
 
 ## State Diagram
 
-# Purpose:
 This diagram describes the lifecycle of a single agent instance from a runtime perspective.
-
-# Explanation text:
 
 An agent begins in an Idle state, waiting for a trigger. When a run is initiated — via UI, API, CLI, or scheduler — the agent transitions into the Running state.
 
