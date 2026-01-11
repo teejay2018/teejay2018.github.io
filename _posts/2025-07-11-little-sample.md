@@ -79,6 +79,18 @@ timeline
 
 🏅 Rank and
 
+Table
+| 🏭 Overview | 📆 Status | 🌐 Link | 📝 Notes
+|:--:|-----------------:|-------------|:--------------------|
+| **Cantaloop Technology** | **Under construction** | cantaloop.dk | Landing page company |
+| **Cantaloop Blog** | Running | blog.cantaloop.dk | this site |
+| **Cantaloop Dashboard** | Running | kibana.cantaloop.dk | traffic dashboard |
+| **Cantaloop LLM** | Running | llm.cantaloop.dk | local llm |
+| **Cantaloop Nextcloud** | Running | nextcloud.cantaloop.dk | files locally |
+| **Orchestrator** | **Under construction** | orchestrator.dk | Multi tenant, Multi Agent, Multi Vendor |
+| **Agentic AI prototypes** | **Under construction** | orchestrator.dk/a1.html | First prototype |
+
+
 
 ```bash
 pwd
