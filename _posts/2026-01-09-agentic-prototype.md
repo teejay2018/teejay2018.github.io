@@ -247,12 +247,10 @@ stateDiagram-v2
 
 ## Sequence Diagram
 
-# Purpose:
 This diagram shows what actually happens when an agent run is triggered from the user interface.
 
 It is deliberately concrete and chronological.
 
-# Explanation text:
 
 When a user clicks “Run Agent” in the browser, the request is first handled by Nginx, which performs authentication and forwards the request to the internal Agent API.
 

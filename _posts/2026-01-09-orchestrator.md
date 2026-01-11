@@ -25,10 +25,8 @@ Steps include overview and details that is relevant from building core and secur
 
 ## Initial Architecture overview. 
 
-# Purpose:
 This diagram shows how the system can evolve from a single-agent prototype into a multi-tenant orchestrator without major architectural changes.
 
-# Explanation text:
 
 At the top level, users or automation systems (web UI, CLI, cron jobs) interact with a central orchestrator. The orchestrator routes requests to the appropriate tenant context.
 
