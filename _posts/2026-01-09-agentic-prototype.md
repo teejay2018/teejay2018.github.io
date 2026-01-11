@@ -211,7 +211,18 @@ This prototype demonstrates a few important ideas:
 
 ## State Diagram
 
-Agent lifecycle (idle/running/error)
+# Purpose:
+This diagram describes the lifecycle of a single agent instance from a runtime perspective.
+
+# Explanation text:
+
+An agent begins in an Idle state, waiting for a trigger. When a run is initiated — via UI, API, CLI, or scheduler — the agent transitions into the Running state.
+
+During execution, the agent may either complete successfully or encounter an error. A successful execution returns the agent to the Idle state, ready for the next run.
+
+If an error occurs (for example, a failed file operation or invalid decision), the agent enters an Error state. Errors are logged explicitly, but the agent does not remain stuck. After error handling or reset, the agent transitions back to Idle.
+
+This lifecycle ensures that agent runs are isolated and that failures do not accumulate state or block future executions.
 
 ```mermaid
 stateDiagram-v2
@@ -226,6 +237,25 @@ stateDiagram-v2
 ---
 
 ## Sequence Diagram
+
+# Purpose:
+This diagram shows what actually happens when an agent run is triggered from the user interface.
+
+It is deliberately concrete and chronological.
+
+# Explanation text:
+
+When a user clicks “Run Agent” in the browser, the request is first handled by Nginx, which performs authentication and forwards the request to the internal Agent API.
+
+The API starts a new agent run and hands control to Agent A1, which immediately begins by observing the current state of the filesystem. This observation step is deterministic and does not involve any LLM calls.
+
+Based on the observed state, Agent A1 constructs a structured prompt and sends it to the OpenAI API. The language model returns a decision object, describing what should be done, but not performing any action itself.
+
+The agent runtime then executes the proposed action using deterministic Python code (for example, moving a file). Once execution is complete, a structured run object is written to the run log.
+
+Finally, the API returns the result to the browser as a JSON response. At no point does the language model interact directly with the filesystem or infrastructure.
+
+This separation makes the system observable, debuggable, and safe.
 
 ```mermaid
 sequenceDiagram
