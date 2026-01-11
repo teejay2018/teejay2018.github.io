@@ -14,10 +14,8 @@ mermaid: true
 
 ## Architecture Diagram A1 vs A2 (OpenAI vs Gemini)
 
-# Purpose:
 This diagram explains how multiple agents can share the same runtime while using different model providers.
 
-# Explanation text:
 
 Agent A1 and Agent A2 share the exact same runtime pipeline: observe, decide, execute, and log. The only difference between them is the decision provider used in the “Decide” phase.
 

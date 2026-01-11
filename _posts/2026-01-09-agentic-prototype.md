@@ -49,6 +49,15 @@ The system is built around a few explicit principles:
 
 ## High-Level Architecture
 
+Agent A1 and Agent A2 share the exact same runtime pipeline: observe, decide, execute, and log. The only difference between them is the decision provider used in the “Decide” phase.
+
+Agent A1 uses OpenAI as its language model provider, while Agent A2 is intended to use Gemini. Everything else — filesystem access, execution logic, validation, and logging — remains identical.
+
+This design makes agent behavior comparable across providers. Differences in output quality, latency, or cost can be attributed to the model itself rather than differences in infrastructure or execution logic.
+
+By isolating the LLM behind a stable decision interface, the system avoids vendor lock-in and enables controlled experimentation.
+
+
 ```mermaid
 flowchart LR
     Browser["Browser<br/>a1.html"]
