@@ -49,30 +49,20 @@ This is my [link to the top 20 post]({% post_url 2025-11-04-top-20-ai-supercompu
 
 Can this do
 ```mermaid
-timeline
-    title 4 decades
-    1981 : PFA Pension
-         : Developer
-         : DBA
-         : Systemchef
-    2001 : Siemens
-         : UNIX CoE
-         : Business Consultant
-    2011 : Atos
-         : Senior Consultant
-         : Senior application
-         : Digital and Cloud
-         : Biztalk Consultant
-    2023 : Eviden
-         : Digital Infrastructure
-         : AI and Data
-         : AI Supercomputer
-         : Gefion
-    2025 : Atos
-         : AI & Data
-         : Gefion
-         : Full stack Cloud
-         : Full stack Sovereign
+quadrantChart
+    title The year of Agent and Orchestration
+    x-axis Completeness of vision
+    y-axis Ability to execute
+    quadrant-1 Leaders
+    quadrant-2 Challengers
+    quadrant-3 Niche players
+    quadrant-4 Visionaries
+    Openai: [0.3, 0.6]
+    IBM: [0.45, 0.23]
+    Cantaloop: [0.70, 0.83]
+    UiPath: [0.78, 0.34]
+    Microsoft: [0.40, 0.34]
+    Gemini: [0.35, 0.78]
 ```
 
 #### 🏅 Rank
