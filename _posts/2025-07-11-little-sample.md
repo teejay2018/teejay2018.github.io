@@ -126,10 +126,28 @@ Chirpy
 
 
 Bruge prompts sådan her
+
 > {: .prompt-tip } Dette er et smart tip til din læser.
+
 > {: .prompt-info } Her er noget vigtig information.
+
 > {: .prompt-warning } Pas på med at slette din `_config.yml`!
+
 > {: .prompt-danger } Dette er en kritisk fejlmeddelelse.
+
+Eller sådan her 
+
+> Dette er et smart tip til din læser.
+{: .prompt-tip }
+
+> Her er noget vigtig information.
+{: .prompt-info }
+
+> Pas på med at slette din `_config.yml`!
+{: .prompt-warning } 
+
+> Dette er en kritisk fejlmeddelelse.
+{: .prompt-danger } 
 
 MD er fantastisk til at skrive dokumentation.
 
