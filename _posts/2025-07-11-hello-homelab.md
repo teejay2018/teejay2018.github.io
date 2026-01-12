@@ -40,3 +40,6 @@ sudo bundle
 ![DNS setup](/assets/images/dns-setup.png)
 
 ---
+
+![GitHub Pages](/assets/images/github-pages.png)
+

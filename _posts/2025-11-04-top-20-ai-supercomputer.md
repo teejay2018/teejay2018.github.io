@@ -6,7 +6,7 @@ categories: [top20,data,ai]
 tags: [nvidia,datacenter]
 ---
 
-# 🌍 Biannual AI Factories Top 20 
+# 🏭 Biannual AI Factories Top 20 
 
 *Inspired by the [TOP500 Supercomputer List](https://www.top500.org), this list ranks the largest known or announced AI training infrastructures worldwide — often called “AI Factories”.  
 Figures are based on public announcements, credible leaks, and infrastructure analysis.*
