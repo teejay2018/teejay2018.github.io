@@ -8,17 +8,18 @@ tags: [servers,dell,hp,lenovo]
 
 # Toms overview
 
-Lorem ipsum
-haha
+Blog setup
 
-* one
-* two two
-* three
-* four
+* Static pages
+* Jekyll generated
+* Chirpy theme
+* GitHub repo and GitHub Pages with my subdomain (https://blog.cantaloop.dk)
 
 ## Hardware
 
-Lorem lorem iiipsum
+Blog is cloud based (free Github Pages)<br>
+Linux VM is hosted by Hetzner and size is as small as posible (CX33 = 8 Gb RAM, 80 Gb local disk, 100 Gb Storage Volume)
+Cost around 12 eur monthly
 
 ```javascript
 console.log('hello world')

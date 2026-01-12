@@ -29,7 +29,7 @@ Figures are based on public announcements, credible leaks, and infrastructure an
 | **11** | **Tencent AI SuperCenter** | Shenzhen, China | Tencent | ~40,000 GPUs | H800 + Blackwell *(planned)* | Expansion | Supports Hunyuan model suite |
 | **12** | **DOE “Frontier AI Discovery” Project** | Oak Ridge, USA | U.S. Dept. of Energy (DOE) | ~35,000 GPUs equivalent | AMD Instinct / HPE Cray | Building (2025) | Research-oriented, exascale AI-HPC hybrid |
 | **13** | **DOE “Lux” AI Facility** | USA | U.S. Dept. of Energy | ~30,000 GPUs equivalent | Hybrid DOE HPC / NVIDIA | Announced | Next-gen AI scientific computing center |
-| **14** | **EU “JUPITER AI Extension” (EuroHPC)** | Jülich, Germany | EuroHPC / Forschungszentrum Jülich | ~25,000 GPUs *(MI300A + H100)* | Modular Supercomputing | Under Construction | Europe’s flagship AI-HPC hybrid |
+| **14** | **EU “JUPITER AI Extension” (EuroHPC)** | Jülich, Germany | EuroHPC / Forschungszentrum Jülich | ~25,000 GPUs *(MI300A + H100)* | Modular Supercomputing | Under Construction- | Europe’s flagship AI-HPC hybrid |
 | **15** | **Saudi NEOM AI Factory** | NEOM, Saudi Arabia | NEOM Tech / NVIDIA | ~24,000 GPUs | NVIDIA + Oracle Cloud | Announced | AI hub for NEOM smart city projects |
 | **16** | **ETH Zurich “Alps” AI-HPC** | Zurich, Switzerland | CSCS / ETH | ~22,000 GPUs | NVIDIA Grace Hopper | Launching 2025 | European sovereign AI compute center |
 | **17** | **France “Jean Zay 2” AI Upgrade** | Paris, France | GENCI | ~20,000 GPUs | NVIDIA / Atos BullSequana | Construction | French national AI infrastructure |
@@ -40,13 +40,18 @@ Figures are based on public announcements, credible leaks, and infrastructure an
 ---
 
 > **Notes (2025):**
-> - 🏭 “AI Factories” are large-scale GPU or accelerator clusters dedicated to training or serving AI foundation models.  
-> - 🧠 GPU counts are based on credible estimates; real totals may vary due to hybrid architectures (TPUs, WSEs, Trainium, etc.).  
+{: .prompt-info }
+
+> - 🏭 “AI Factories” are large-scale GPU or accelerator clusters dedicated to training or serving AI foundation models.
+
+> - 🧠 GPU counts are based on credible estimates; real totals may vary due to hybrid architectures (TPUs, WSEs, Trainium, etc.).
+
 > - 🌎 The U.S. leads in installed capacity, but **UAE**, **China**, and **EU** projects are rapidly expanding.  
 > - 🚀 Projects like **Stargate** and **Frontier AI Factory** mark the beginning of the *100k+ GPU era* of AI infrastructure.  
 > - ⚡ Expect several >200k-GPU builds to break ground before 2026.
 
 ---
+
 
 _Last updated: November 2025_  
 _Source: company filings, press releases, HPC community trackers, and infrastructure research._
