@@ -71,7 +71,7 @@ quadrantChart
 
 Table
 | 🏭 Overview | 📆 Status | 🌐 Link | 📝 Notes
-|:--:|-----------------:|-------------|:--------------------|
+|:---|:------------------|:-----------|:--------------------|
 | **Cantaloop Technology** | **Under construction** | cantaloop.dk | Landing page company |
 | **Cantaloop Blog** | Running | blog.cantaloop.dk | this site |
 | **Cantaloop Dashboard** | Running | kibana.cantaloop.dk | traffic dashboard |
@@ -89,6 +89,14 @@ who
 ```
 
 ~~hey~~
+
+https://getemoji.com/
+
+[Her you can copy emoji icons](https://getemoji.com/)
+
+Some here = 📌🔎✅💯🔜⛔️
+
+[🏠 Go to Home](https://cantaloop.dk)
 
 
 
