@@ -72,7 +72,7 @@ quadrantChart
 Table
 
 | 🏭 Overview | 📆 Status | 🌐 Link | 📝 Notes
-|:---|:------------------|:-----------|:--------------------|
+|:---|:------------------|-----------:|:--------------------|
 | **Cantaloop Technology** | **Under construction** | cantaloop.dk | Landing page company |
 | **Cantaloop Blog** | Running | blog.cantaloop.dk | this site |
 | **Cantaloop Dashboard** | Running | kibana.cantaloop.dk | traffic dashboard |
@@ -126,16 +126,6 @@ Chirpy
 
 
 Bruge prompts sådan her
-
-> {: .prompt-tip } Dette er et smart tip til din læser.
-
-> {: .prompt-info } Her er noget vigtig information.
-
-> {: .prompt-warning } Pas på med at slette din `_config.yml`!
-
-> {: .prompt-danger } Dette er en kritisk fejlmeddelelse.
-
-Eller sådan her 
 
 > Dette er et smart tip til din læser.
 {: .prompt-tip }
