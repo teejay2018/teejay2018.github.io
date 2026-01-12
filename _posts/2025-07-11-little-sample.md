@@ -70,6 +70,7 @@ quadrantChart
 🏅 Rank and
 
 Table
+
 | 🏭 Overview | 📆 Status | 🌐 Link | 📝 Notes
 |:---|:------------------|:-----------|:--------------------|
 | **Cantaloop Technology** | **Under construction** | cantaloop.dk | Landing page company |
@@ -87,6 +88,11 @@ pwd
 ls -l 
 who
 ```
+
+> Dette virker altid uden ekstra konfiguration.
+{: .prompt-tip }
+
+
 
 ~~hey~~
 
