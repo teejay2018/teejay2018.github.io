@@ -108,3 +108,36 @@ flowchart LR
 ```
 
 Nu er den der mere mere
+
+Her kommer lidt flere forslag
+Punktopstillinger:
+
+Jekyll
+: En statisk sidegenerator skrevet i Ruby.
+
+Chirpy
+: Et fantastisk tema til Jekyll med indbygget mørk tilstand.
+
+
+Bruge prompts sådan her
+> {: .prompt-tip } Dette er et smart tip til din læser.
+> {: .prompt-info } Her er noget vigtig information.
+> {: .prompt-warning } Pas på med at slette din `_config.yml`!
+> {: .prompt-danger } Dette er en kritisk fejlmeddelelse.
+
+MD er fantastisk til at skrive dokumentation.
+
+*[MD]: Markdown
+
+Og en dynamisk mermaid
+
+```mermaid
+graph TD;
+    A[Start på Blog] --> B{Bruger du Chirpy?};
+    B -- Ja --> C[Din blog ser vild ud];
+    B -- Nej --> D[Gå til Chirpy på GitHub];
+```
+
+Er det noget?
+
+
