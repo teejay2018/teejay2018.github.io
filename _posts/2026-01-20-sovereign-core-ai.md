@@ -14,7 +14,7 @@ mermaid: true
 
 ## TL;DR 🚀
 
-- **:contentReference[oaicite:0]{index=0} Sovereign Core** is a **platform**: powerful, integrated, complex.
+- **[IBM](https://www.ibm.com/new/announcements/introducing-ibm-sovereign-core-a-new-software-foundation-for-sovereignty) Sovereign Core** is a **platform**: powerful, integrated, complex.
 - **Cantaloop Sovereign Core** (this blog) is a **pattern**: bare metal, explicit, auditable, boring in the best way.
 - Both solve *sovereignty* — but from opposite ends of the abstraction spectrum.
 
