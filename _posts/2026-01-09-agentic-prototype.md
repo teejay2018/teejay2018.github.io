@@ -322,10 +322,10 @@ deactivate
 ```
 Test run
 
-![Service](/assets/images/agents-demo1.png){: .right w="200" h="150" }
+![Service](/assets/images/agents-demo1.png){: .right w="500" h="300" }
 This is the look of Uvicorn service listening on port 8000 for the API
 
-![Frontend](/assets/images/agents-demo2.png){: .left w="300" h="150" }
+![Frontend](/assets/images/agents-demo2.png){: .left w="500" h="400" }
 The demo frontend at orchestrator.dk/agents.html showing you can choose between A1 (OpenAI) or A2 (Gemini) demo. Result is shown. Page is password protected.
 
 
