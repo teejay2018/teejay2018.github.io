@@ -301,5 +301,35 @@ Complexity will be added only when the system itself demands it.*
 
 ---
 
+## Agent A2 - same as A1 but with Gemini API
+
+- **Agent A2** 
+- modified strcuture - model part (kognitive) and still only one operational agent part shared between two
+- pip install openai fastapi uvicorn google-genai
+- API Key from here = https://aistudio.google.com/api-keys
+- Free tier (flash model not pro)
+- export GEMINI_API_KEY=
+
+```bash
+cd agent_demo
+export GEMINI_API_KEY=
+source .venv/bin/activate
+mv processed/test[1-4].txt inbox
+uvicorn agent_api:app --host 127.0.0.1 --port 8000
+Ctrl-c to stop service
+
+deactivate
+```
+Test run
+
+![Service](/assets/images/agents-demo1.png){: .right w="200" h="150" }
+This is the look of Uvicorn service listening on port 8000 for the API
+
+![Frontend](/assets/images/agents-demo2.png){: .left w="300" h="150" }
+The demo frontend at orchestrator.dk/agents.html showing you can choose between A1 (OpenAI) or A2 (Gemini) demo. Result is shown. Page is password protected.
+
+
+---
+
 _Last updated: January 2026_  
 _Source: Cantaloop Aps._
