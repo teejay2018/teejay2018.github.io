@@ -30,7 +30,7 @@ graph TD
     end
 
     subgraph "Ekstern Access"
-        CON[👨‍💻 Consultant] -- Node sharing --> RS
+        CON[👨‍💻 Consultant] -- Node sharing --> TS
     end
 ```
 
