@@ -6,7 +6,6 @@ date: 2026-02-06
 categories: [invest, portfolio, agent]
 tags: [openclaw, agent, fastapi, uvicorn, linux]
 ---
----
 
 # Invest guru Holger weekly notes on model portfolio
 *My virtual investment guru speaks out every week*
@@ -99,3 +98,7 @@ _(I’ll fill this properly on Monday after we’ve seen how markets closed Fri 
 
 ## ❓ Open question (optional)
 - If you ever want to switch from “model-only” to realism: we can move to **your actual fills**, but it’s extra manual work.
+
+---
+_Last updated: February 2026_  
+_Source: Cantaloop Aps._
