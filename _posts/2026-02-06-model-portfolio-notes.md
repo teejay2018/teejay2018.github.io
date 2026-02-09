@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Agent Holgers model portfolio notes"
-hidden: true
 date: 2026-02-06
 categories: [invest, portfolio, agent]
 tags: [openclaw, agent, fastapi, uvicorn, linux]
