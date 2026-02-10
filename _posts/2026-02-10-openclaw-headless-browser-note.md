@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Openclaw headless browser note"
-date: 2026-02-05
+date: 2026-02-10
 categories: [architecture, agent, security]
 tags: [infrastructure, linux, openclaw, agent, headless]
 mermaid: true
