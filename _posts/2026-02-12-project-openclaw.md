@@ -17,7 +17,7 @@ I will install and configure and have various use cases running to learn and exp
 | 🏭 Overview | 📆 Status | 🌐 Link | 📝 Notes
 |:--:|:------------------|:-------------|:--------------------|
 | **Clawdbot vs governed system** | **January/2026** | **[Intro]({% post_url 2026-01-26-personal-ai %})** | |
-| **Agent work with own files on Gsuite** | **Setup February/2026** | **[Gsuite]({% post_url 2026-02-05-api-oauth-google %})** | |
+| **Agent work with own files on Gsuite** | **Setup February/2026** | **[Gsuite]({% post_url 2026-02-05-api-oath-google %})** | |
 | **Security with Tailscale** | **Under construction** | **[Tailscale]({% post_url 2026-02-05-tailscale-setup %})** | |
 | **Browser automation in headless** | **February/2026** | **[Browser]({% post_url 2026-02-10-openclaw-headless-browser-note %})** | |
 | **Project 1 Model portfolio** | **February/2026** | **[Documentation]({% post_url 2026-02-09-project-documentation1 %})** | Documentation for model portfolio |
