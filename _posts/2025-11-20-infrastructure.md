@@ -22,6 +22,7 @@ Steps include overview and details that is relevant from building core and secur
 | **Install and set up local LLM** | **Setup December/2025** | **[LLM]({% post_url 2025-12-08-llm-setup %})** | llm.cantaloop.dk |
 | **Install and set up local Nextcloud** | **Setup December/2025** | **[Nextcloud]({% post_url 2026-01-04-nextcloud-setup %})** | nextcloud.cantaloop.dk |
 | **Install and set up local WP based frontpage** | **Setup December/2025** | **[WordPress]({% post_url 2026-01-04-wordpress-template %})** | with notes, WP, Astra, Spectra |
+| **Operation** | **Setup February/2026** | **[Operation]({% post_url 2026-02-12-cantaloop-operation %})** | covering all infrastructure and related services |
 | **Install next** | To come January/2026 | WIP | with notes  |
 
 ---
@@ -29,5 +30,5 @@ Steps include overview and details that is relevant from building core and secur
 
 ---
 
-_Last updated: January 2026_  
+_Last updated: February 2026_  
 _Source: Cantaloop Aps._
