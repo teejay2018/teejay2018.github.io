@@ -55,7 +55,7 @@ tags: [linux,vm,infrastructure, operation]
 - Web based via Admin -> Settings -> Click Open updater
 - Click Start update
 - Running the /updater
-- Can also do from CLI with cd /var/www/nextcloud; ./occ upgrade
+- Can also do from CLI with ``cd /var/www/nextcloud; ./occ upgrade``
 
 ---
 
