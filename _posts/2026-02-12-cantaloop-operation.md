@@ -41,8 +41,15 @@ tags: [linux,vm,infrastructure, operation]
 
 ## 3) 🧠 Nextcloud
 ### 3.1 settings
-- Install dir /var/www.nextcloud
-- Subdomain nextcloud.cantaloop.dk
+- Install dir /var/www.nextcloud, subdomain nextcloud.cantaloop.dk, hosted by my nginx
+- Its mostly PHP depending on package **php8.3-fpm**
+- and a database on my mariadb with name **nextcloud**
+- Data is located under **/var/www/nextcloud/data**
+- Log files to be seen here **/var/www/nextcloud/data/nextcloud.log**
+- Services
+  - sudo systemctl status nginx
+  - sudo systemctl status php8.3-fpm
+  - systemctl status mariadb
 
 ### 3.2 Upgrade
 - Web based via Admin -> Settings -> Click Open updater
