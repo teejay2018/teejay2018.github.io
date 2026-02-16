@@ -99,5 +99,43 @@ _(I’ll fill this properly on Monday after we’ve seen how markets closed Fri 
 - If you ever want to switch from “model-only” to realism: we can move to **your actual fills**, but it’s extra manual work.
 
 ---
+# Model portfolio weekly note — 2026-02-16
+
+## Reference data (pricing convention)
+- **Reference close date:** 2026-02-13 (previous trading day close)
+- **FX (close, same date):**
+  - USD/DKK: **6.29115** (Stooq)
+  - EUR/DKK: **7.47037** (Stooq)
+
+## Snapshot (since entry 2026-02-09 → ref close 2026-02-13)
+- **Portfolio value (DKK):** 395,976.67
+- **P/L (DKK):** -4,023.33
+- **P/L (% of 400,000 DKK start):** -1.01%
+
+## Biggest movers (P/L %)
+**Top:**
+- **NOVO-B.CO:** +4.16%
+- **ASM.AS:** +1.40%
+- **ASML.AS:** +0.10%
+
+**Bottom:**
+- **AMZN:** -5.87%
+- **GOOGL:** -5.69%
+- **NVDA:** -1.80%
+
+## Position notes / watchlist (1 week)
+- **US mega-cap (MSFT/NVDA/AMZN/GOOGL):** watch for any macro-driven multiple compression vs. fundamentals; keep an eye on AI capex commentary and ad/cloud demand indicators.
+- **Semicap (ASML/ASM):** monitor any guidance changes or order-cycle commentary (lead times, memory vs logic mix).
+- **Novo Nordisk:** watch obesity/GLP-1 competitive news flow and any pricing/reimbursement headlines.
+- **SAP:** watch enterprise software spending sentiment and cloud transition progress.
+
+## Actions
+- **No trades proposed (default HOLD).**
+
+---
+Data sources: Nordnet quotes (instrument search) + Stooq FX fallback.
+
+
+---
 _Last updated: February 2026_  
 _Source: Cantaloop Aps._
