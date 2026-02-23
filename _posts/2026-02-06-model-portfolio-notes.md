@@ -133,6 +133,50 @@ _(I’ll fill this properly on Monday after we’ve seen how markets closed Fri 
 - **No trades proposed (default HOLD).**
 
 ---
+# Weekly model portfolio note — 2026-02-23
+
+## Snapshot (this run)
+This week’s automated run failed earlier; this note is from a **manual recovery run**.
+
+**Pricing convention reminder (normal weekly process):** previous trading day close (Fri close for Monday check-in) + same-day FX close.
+
+**Deviation today (to unblock):** because markets were open and Nordnet links were provided, **ASML.AS / ASM.AS / NOVO-B.CO were recorded at current intraday price on 2026-02-23** (not Friday close). US names + SAP.DE use **Fri 2026-02-20 close**.
+
+## Updated reference inputs used
+### USD assets (Fri close, 2026-02-20)
+- MSFT: 397.23 (USD) | USD/DKK FX close: 6.33898
+- NVDA: 189.82 (USD) | USD/DKK FX close: 6.33898
+- AMZN: 210.11 (USD) | USD/DKK FX close: 6.33898
+- GOOGL: 314.98 (USD) | USD/DKK FX close: 6.33898
+
+### EUR assets
+- SAP.DE: 173.80 (EUR) | Ref date: 2026-02-20 | EUR/DKK FX close: 7.47112
+- ASML.AS: 1,230.80 (EUR) | Ref date: 2026-02-23 (intraday) | EUR/DKK used: 7.47147
+- ASM.AS: 705.60 (EUR) | Ref date: 2026-02-23 (intraday) | EUR/DKK used: 7.47147
+
+### DKK asset
+- NOVO-B.CO: 259.15 (DKK) | Ref date: 2026-02-23 (intraday) | FX: 1.00
+
+## Portfolio P/L vs entry (from Sheet after updating refs)
+- MSFT: -345.59 DKK (-0.63%)
+- NVDA: +1,505.09 DKK (+2.74%)
+- AMZN: +112.21 DKK (+0.25%)
+- GOOGL: -944.87 DKK (-2.10%)
+- ASML.AS: +1,891.99 DKK (+3.15%) *(intraday ref)*
+- NOVO-B.CO: -5,523.50 DKK (-12.27%) *(intraday ref)*
+- SAP.DE: +775.01 DKK (+1.55%)
+- ASM.AS: +1,453.60 DKK (+3.23%) *(intraday ref)*
+
+**Total P/L vs entry:** **-1,076.06 DKK** (dragged heavily by Novo today).
+
+## Actions
+- **No trades proposed** (default HOLD; no thesis change captured in this recovery run).
+
+## 1-week watchlist
+- Novo: confirm the catalyst for today’s gap down (earnings guidance / trial data / competition / regulatory). If it’s transitory vs. thesis-breaking.
+- Semicap (ASML/ASM): keep an eye on any read-through from AI capex and EU tech momentum.
+- US megacaps: track any macro/FX impact; USD/DKK moved up a bit vs earlier reference.
+---
 Data sources: Nordnet quotes (instrument search) + Stooq FX fallback.
 
 
