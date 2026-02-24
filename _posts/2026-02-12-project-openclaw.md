@@ -23,7 +23,8 @@ I will install and configure and have various use cases running to learn and exp
 | **More on headless browser** | **February/2026** | **[Headless-browser]({% post_url 2026-02-24-openclaw-headless-browser %})** | Web scrape with Agent |
 | **Project 1 Model portfolio** | **February/2026** | **[Documentation]({% post_url 2026-02-09-project-documentation1 %})** | Documentation for model portfolio |
 | **Project 1 Model portfolio** | **February/2026** | **[Portfolio]({% post_url 2026-02-06-model-portfolio-notes %})** | Weekly Notes from Agent invest-guru  |
-| **Project 1 Model portfolio** | **February/2026** | **[Headless-browser]({% post_url 2026-02-24-openclaw-headless-browser %})** | Web scrape with Agent |
+| **Mission Control Kanban** | **February/2026** | **[MC](http://127.0.0.1:8080/)** | Start app from python on gateway and use tunnel |
+| **Project Rosetta** | **February/2026** | **[Rosetta](https://test-news.cantaloop.dk/rosetta-poc1)** | PoC1 |
 
 ---
 
