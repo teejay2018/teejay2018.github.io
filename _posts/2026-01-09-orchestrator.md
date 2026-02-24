@@ -17,8 +17,9 @@ Steps include overview and details that is relevant from building core and secur
 | 🏭 Overview | 📆 Status | 🌐 Link | 📝 Notes
 |:--:|:------------------|:-------------|:--------------------|
 | **SaaS Orchestrator** | **Setup January/2026** | **[Orchestrator]({% post_url 2026-01-09-orchestrator-setup %})** | orchestrator.dk |
-| **SaaS Agentic AI prototypes** | **Setup January/2026** | **[Agentic]({% post_url 2026-01-09-agentic-prototype %})** | orchestrator.dk/a1.html |
-| **SaaS Agentic AI prototypes** | **Setup January/2026** | **[ServerSide]({% post_url 2026-01-10-a1-server-side %})** | orchestrator.dk/a1.html |
+| **Agentic AI prototypes** | **Setup January/2026** | **[Agentic]({% post_url 2026-01-09-agentic-prototype %})** |  |
+| **Agentic AI prototypes** | **Setup January/2026** | **[ServerSide]({% post_url 2026-01-10-a1-server-side %})** |  |
+| **Pydantic contract** | **Setup February/2026** | **[ServerSide]({% post_url 2026-02-24-note-pydantic-contract %})** | Note pydantic, deterministic |
 | **Install next** | To come January/2026 | WIP | with notes  |
 
 ---
