@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Fail2ban - protect your VPS
-hidden: false
 date: 2025-11-24 08:00:00 +0200
 categories: [linux,software]
 tags: [linux,datacenter,security,operation]
@@ -120,13 +119,13 @@ sudo grep "Ban " /var/log/fail2ban.log
 
 In /etc/fail2ban/jail.local
 
-for sshd:
-Increase bantime to 1d (was not set)
-Set findtime to 1h (wasnot set)
-Set maxretry to 3 (was not set)
+for sshd:<br>
+Increase bantime to 1d (was not set)<br>
+Set findtime to 1h (wasnot set)<br>
+Set maxretry to 3 (was not set)<br>
 
-for recidive:
-Set maxretry to 5 (was not set)
+for recidive:<br>
+Set maxretry to 5 (was not set)<br>
 
 ```bash
 
