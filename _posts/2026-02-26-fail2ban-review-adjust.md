@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fail2ban - protect your VPS
-date: 2025-11-24 08:00:00 +0200
+date: 2026-02-26 
 categories: [linux,software]
 tags: [linux,datacenter,security,operation]
 ---
