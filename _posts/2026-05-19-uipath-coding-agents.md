@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Using UiPath Studio with AI coding agents
-hidden: true
 date: 2026-05-19 08:00:00 +0200
 categories: [automation,uipath,orchestrator,ai,agentic]
 tags: [ai,agentic]
