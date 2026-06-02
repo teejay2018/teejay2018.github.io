@@ -42,11 +42,11 @@ User
 Single Agent
 ↓
 Tools
-YYY
+```
 
 In 2026, the architecture increasingly looks like this:
 
-YYY
+```
 User
 ↓
 Control Plane
