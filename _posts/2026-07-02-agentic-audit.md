@@ -278,6 +278,8 @@ One story.
 
 Complete transparency.
 
+ChangeOps to help AgentOps, LLMOps, AIOps to track intent, evidence, approvals, history aka the governance layer
+
 ---
 
 # 🎼 Cantaloop
