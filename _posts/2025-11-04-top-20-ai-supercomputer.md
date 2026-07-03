@@ -16,12 +16,14 @@ Figures are based on public announcements, credible leaks, and infrastructure an
 | 🏭 Top 20 list | 📆 Status | 🌐 Link | 📝 Notes
 |:--:|:------------------|:-------------|:--------------------|
 | **1st** | **Published November/2025** | **[2025 11]({% post_url 2025-11-06-top-20-ai-supercomputer-2025H2 %})** | |
-| **2nd** | To come June/2026 | 2026 06 | with notes on progress |
+| **2nd** | **Published June/2026**     | **[2026 06]({% post_url 2026-06-30-top-20-ai-supercomputer-2026H1 %})** | |
+| **3rd** | To come Nov/2026  | 2026 11 | with notes on progress |
 
 ---
 
+2026-06-30-top-20-ai-supercomputer-2026H1.md
 
 ---
 
-_Last updated: November 2025_  
+_Last updated: Juli 2026_  
 _Source: company filings, press releases, HPC community trackers, and infrastructure research._
