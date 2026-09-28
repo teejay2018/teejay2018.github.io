@@ -14,6 +14,20 @@ mermaid: true
 Tomorrow September 29, OpenAI will host Dev Day and most likely announce their product with Peter Steinburger being there
 
 ---
+<style>
+.mermaid-zoom {
+  overflow-x: auto; /* Adds horizontal scrollbar if diagram exceeds screen width */
+  margin: 2rem 0;
+}
+
+.mermaid-zoom .mermaid {
+  transform: scale(1.5);
+  transform-origin: top left; /* Keeps alignment clean */
+  width: 66.66%; /* Prevents accidental overflow clipping */
+}
+</style>
+
+<div class="mermaid-zoom">
 
 ```mermaid
 timeline
@@ -44,4 +58,3 @@ timeline
         OpenClaw 2.0          : OpenClaw 2.0 standardizes sandboxed skills & multi-model routing
 ```
 
-**Loops.**
