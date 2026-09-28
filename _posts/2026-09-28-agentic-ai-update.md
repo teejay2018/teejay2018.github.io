@@ -16,18 +16,18 @@ Tomorrow September 29, OpenAI will host Dev Day and most likely announce their p
 ---
 <style>
 .mermaid-zoom {
-  overflow-x: auto; /* Adds horizontal scrollbar if diagram exceeds screen width */
+  overflow-x: auto;
   margin: 2rem 0;
 }
 
 .mermaid-zoom .mermaid {
   transform: scale(1.5);
-  transform-origin: top left; /* Keeps alignment clean */
-  width: 66.66%; /* Prevents accidental overflow clipping */
+  transform-origin: top left;
+  width: 66.66%;
 }
 </style>
 
-<div class="mermaid-zoom">
+<div class="mermaid-zoom" markdown="1">
 
 ```mermaid
 timeline
